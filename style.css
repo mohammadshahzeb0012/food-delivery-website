@@ -180,8 +180,8 @@
 }
 
 .hero-right>img {
-    width: 500px;
-    height: 450px;
+    width: 40vw;
+    height: 80%;
 }
 
 /* About Us Section  */
@@ -583,7 +583,7 @@ td {
         margin-left: 25px;
     }
     .hero-heading>h1 {
-        font-size: 42px;
+        font-size: 38px;
     }
     .hero-para {
         width: 86vw;
@@ -591,6 +591,14 @@ td {
     .hero-right{
         display: none;
     }
+    #Special-Recipes>h2 {
+        font-size: 46px;
+        width: 90vw;
+        text-align: center;
+    }
+
+
+
     .Testimonials-right>h2{
         width: 90vw;
     }
