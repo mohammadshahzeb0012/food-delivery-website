@@ -198,7 +198,7 @@
 
 
 .about-text>h2 {
-    width: 337px;
+    width: 20vw;
     color: #212244;
     font-size: 48px;
     font-weight: 600;
@@ -603,10 +603,8 @@ td {
     #Special-Recipes>h2 {
         font-size: 46px;
         width: 90vw;
-        text-align: center;
+        margin-left: 5%;
     }
-
-
 
     .Testimonials-right>h2 {
         width: 90vw;
