@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Devlivery Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <!-- 1 Navbar Section  -->
+    <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <div class="logo-d">
+                    <h2>D</h2>
+                </div>
+                <div class="logo-f">
+                    <h2>Fdelivery</h2>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#box2">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#box2">Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Special-Recipes">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+
+
+
+                <div class="nav-right-div">
+
+                    <div class="d-flex align-items-center border search-bar px-2">
+                        <input class="form-control me-2 border-end" type="search" placeholder="Search your item
+                     " aria-label="Search">
+                        <img style="cursor: pointer;" src="./assets/search icon.svg" alt="search icon">
+                    </div>
+
+                    <div class="cart-div">
+                        <img src="./assets/cart.svg" alt="cart">
+                        <sup><img class="quantity" src="./assets/cart top.svg" alt="quantity">
+                            <p class="quantity-p">4</p>
+                        </sup>
+                    </div>
+
+                    <button class="nav-btn" type="submit">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2 Hero Section  -->
+    <section id="hero">
+        <div class="heor-left">
+            <div class="hero-burger">
+                <p>More than Faster</p>
+                <img src="./assets/hero burger.svg" alt="hero-burger">
+            </div>
+
+            <div class="hero-heading">
+                <h1>Get your cuisine <br> delivered right to <br><span style="  color:  #F94A3D;">your door</span></h1>
+            </div>
+            <div class="hero-para">
+                <p>Food that is delivered at the right time. The trendy food delivery partner. Good food is what we
+                    deliver. Your hunger companion. </p>
+            </div>
+            <button class="explore-now-btn">
+                Explore Food
+            </button>
+        </div>
+        <div class="hero-right">
+            <img src="./assets/Frame.png" alt="frame with scooter">
+        </div>
+    </section>
+
+    <!-- 3 About Us Section  -->
+    <section id="about-us">
+        <div class="about-text pt-2">
+            <h2>Why we are
+                Best in our
+                Town</h2>
+            <p>whole grains and low-fat dairy can help to reduce your risk of heart disease by maintaining blood
+                pressure and </p>
+        </div>
+        <div class="about-cards-wrap">
+            <div class="about-cards about-cards-1">
+                <div class="about-cards-img">
+                    <img src="./assets/chose your food.svg" alt="">
+                </div>
+                <h3>Choose
+                    your favorite <br>
+                    food </h3>
+            </div>
+            <div class="about-cards about-cards-2">
+                <div class="about-cards-img">
+                    <img src="./assets/get delivery.svg" alt="">
+                </div>
+                <h3>Get delivery
+                    at your door <br> step </h3>
+            </div>
+            <div class="about-cards about-cards-3">
+                <div class="about-cards-img">
+                    <img src="./assets/review.svg" alt="">
+                </div>
+                <h3>We have 400+ Review
+                    On our app</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4 Special Recipes Section  -->
+    <section id="Special-Recipes">
+        <h2>Try Our Special Recipes</h2>
+        <div class="recipes-menu">
+            <UL>
+                <li class="menu-1">Fast Food</li>
+                <li>Rice Menu</li>
+                <li>Desserts</li>
+                <li>Coffee</li>
+                <li>Pizza</li>
+                <li>See All Product</li>
+            </UL>
+        </div>
+        <div class="recipes-card-wrraper">
+
+            <div class="recipe-cards">
+                <div class="recipes-card-img">
+                    <img src="./assets/fried chicken.svg" alt="fried chicken">
+                </div>
+                <div class="recipes-card-stars">
+                    <img src="./assets/stars.svg" alt="stars">
+                </div>
+                <div class="recipe-card-text">
+                    <h3>Crispy Fried Chicken</h3>
+                    <p>Price <span>$ 13.00</span></p>
+                </div>
+                <button>Add To Cart+</button>
+            </div>
+
+            <div class="recipe-cards">
+                <div class="recipes-card-img">
+                    <img src="./assets/burger patty.svg" alt="burger patty">
+                </div>
+                <div class="recipes-card-stars">
+                    <img src="./assets/stars.svg" alt="stars">
+                </div>
+                <div class="recipe-card-text">
+                    <h3>Burger Patty Recipe</h3>
+                    <p>Price <span>$ 15.00</span></p>
+                </div>
+                <button>Add To Cart+</button>
+            </div>
+
+            <div class="recipe-cards">
+                <div class="recipes-card-img">
+                    <img src="./assets/must try diseshs.svg" alt="must try diseshs">
+                </div>
+                <div class="recipes-card-stars">
+                    <img src="./assets/stars.svg" alt="stars">
+                </div>
+                <div class="recipe-card-text">
+                    <h3>Must-Try Dishes </h3>
+                    <p>Price <span>$ 12.00</span></p>
+                </div>
+                <button>Add To Cart+</button>
+            </div>
+
+            <div class="recipe-cards">
+                <div class="recipes-card-img">
+                    <img src="./assets/tastey french fries.svg" alt="tastey french fries">
+                </div>
+                <div class="recipes-card-stars">
+                    <img src="./assets/stars.svg" alt="stars">
+                </div>
+                <div class="recipe-card-text">
+                    <h3>Tasty French Fries</h3>
+                    <p>Price <span>$ 17.00</span></p>
+                </div>
+                <button>Add To Cart+</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5 Testimonials Section -->
+    <sectio id="Testimonials">
+        <div class="Testimonials-left">
+
+            <div class="Testimonials-box Testimonials-box-1">
+                <img src="./assets/Rosele Desoza.svg" alt="Rosele Desoza">
+                <div class="Testimonials-box-text">
+                    <h3>Rosele Desoza</h3>
+                    <p>Marketing Coordinator</p>
+                </div>
+            </div>
+
+            <div class="Testimonials-box">
+                <img src="./assets/Marvin McKinney.svg" alt="Marvin McKinney">
+                <div class="Testimonials-box-text">
+                    <h3>Marvin McKinney</h3>
+                    <p>Web Designer</p>
+                </div>
+            </div>
+
+            <div class="Testimonials-box">
+                <img src="./assets/Guy Hawkins.svg" alt="Guy Hawkins">
+                <div class="Testimonials-box-text">
+                    <h3>Guy Hawkins</h3>
+                    <p>President of Sales</p>
+                </div>
+            </div>
+
+            <div class="Testimonials-box ">
+                <img src="./assets/Kathryn Murphy.svg" alt="Kathryn Murphy">
+                <div class="Testimonials-box-text">
+                    <h3>Kathryn Murphy</h3>
+                    <p>Marketing Coordinator</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="Testimonials-right">
+            <h2>What our Customers <span style="    color: #F94A3D;">are saying</span></h2>
+            <div class="Testimonials-right-mid">
+                <div class="mid-left">
+                    <h4>Rosele Desoza</h4>
+                    <div class="mid-stars">
+                        <p>Marketing Coordinator</p>
+                        <img src="./assets/stars.svg" alt="stars">
+                    </div>
+                </div>
+            </div>
+
+            <p>“Having good restaurant reviews is crucial these days. It is not just making our decision to pick one
+                easier, it is also helping the restaurant be more successful. You can quickly copy and paste these good
+                restaurant review examples, publish them on Facebook”</p>
+        </div>
+
+    </sectio>
+
+    <!-- 6 Call to Action Section  -->
+    <section id="Call-to-Action">
+        <div class="phone">
+            <img src="./assets/phone.png" alt="phone">
+        </div>
+        <div class="Call-to-Action-text">
+            <h2>Never Feel Hungry!
+                Download Our Mobile App
+                Order Delicious Food</h2>
+            <p>Online ordering has enabled many restaurants to <br> manage their peak business hours very effectively.
+            </p>
+            <div class="download-icons">
+                <img src="./assets/app store.png" alt="app store">
+                <img src="./assets/play store.png" alt="play store">
+            </div>
+        </div>
+    </section>
+
+    <!-- 7 Footer Section  -->
+    <footer id="footer">
+        <div class="contact">
+            <div class="d-flex align-items-center">
+                <div class="logo-d">
+                    <h2>D</h2>
+                </div>
+                <div class="logo-f ms-2">
+                    <h2>Fdelivery</h2>
+                </div>
+            </div>
+            <p>Retail food delivery is a courier service in which a restaurant, store, or independent food-delivery</p>
+            <a href="#"> <img style="cursor: pointer;" src="./assets/contact icons.svg" alt="contact icons"></a>
+        </div>
+
+     <div class="table-wraper">
+        <div class="Company-links footer-links">
+            <h5>Company</h5>
+            <table>
+                <tr>
+                    <td>About Us</td>
+                </tr>
+                <tr>
+                    <td>Blog</td>
+                </tr>
+                <tr>
+                    <td>All Products</td>
+                </tr>
+                <tr>
+                    <td>Locations Map</td>
+                </tr>
+            </table>
+        </div>
+        <div class="Services-link footer-links">
+            <h5>Services</h5>
+            <table>
+                <tr>
+                    <td>Order tracking</td>
+                </tr>
+                <tr>
+                    <td>Wish List</td>
+                </tr>
+                <tr>
+                    <td>My Acount</td>
+                </tr>
+                <tr>
+                    <td>Terms & Conditions</td>
+                </tr>
+            </table>
+        </div>
+        <div class="Support-links footer-links">
+            <h5>Support</h5>
+            <table>
+                <tr>
+                    <td>FAQ</td>
+                </tr>
+                <tr>
+                    <td>Policy</td>
+                </tr>
+                <tr>
+                    <td>Business</td>
+                </tr>
+                <tr>
+                    <td>Support Corner</td>
+                </tr>
+            </table>
+        </div>
+        <div class="contact-links footer-links">
+            <h5>Contact</h5>
+            <table>
+                <tr>
+                    <td>Whatsapp</td>
+                </tr>
+                <tr>
+                    <td>Support 24</td>
+                </tr>
+                <tr>
+                    <td>
+                        Quick Chat
+                    </td>
+                </tr>
+            </table>
+        </div>
+     </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
