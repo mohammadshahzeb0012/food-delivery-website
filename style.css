@@ -5,7 +5,8 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -141,6 +142,7 @@
 .hero-heading {
     width: 500px;
 }
+
 .hero-heading>h1 {
     color: #212244;
     font-size: 45px;
@@ -413,6 +415,7 @@
     margin-top: 58px;
     margin-left: 15px;
 }
+
 .Testimonials-right>h2 {
     width: 559px;
     color: #212244;
@@ -553,12 +556,13 @@
     letter-spacing: -0.16px;
 }
 
-.table-wraper{
+.table-wraper {
     display: flex;
     justify-content: space-evenly;
     gap: 70px;
     margin-top: 12px;
 }
+
 .footer-links>h5 {
     color: #2E2E2E;
     font-size: 24px;
@@ -576,21 +580,26 @@ td {
     margin-top: 50px;
     /* 218.75% */
 }
+
 /* Responsive Section  */
 
 @media screen and (max-width: 500px) {
     .heor-left {
         margin-left: 25px;
     }
+
     .hero-heading>h1 {
         font-size: 38px;
     }
+
     .hero-para {
         width: 86vw;
     }
-    .hero-right{
+
+    .hero-right {
         display: none;
     }
+
     #Special-Recipes>h2 {
         font-size: 46px;
         width: 90vw;
@@ -599,45 +608,55 @@ td {
 
 
 
-    .Testimonials-right>h2{
+    .Testimonials-right>h2 {
         width: 90vw;
     }
+
     #Call-to-Action {
         flex-direction: column;
-        height: 950px;
+        height: 1051px;
     }
+
     .phone>img {
         margin-left: 12%;
         width: 70vw;
         height: 80vh;
     }
+
     .Call-to-Action-text {
-        top: 50%;
+        top: 40%;
         left: 6%;
     }
 
     .Call-to-Action-text>h2 {
         width: 85vw;
     }
-    .Call-to-Action-text > p{
+
+    .Call-to-Action-text>p {
         width: 70vw;
         margin-top: 30px;
     }
+
     .download-icons {
         padding-top: 30px;
+        flex-direction: column;
     }
-    .mid-stars{
+
+    .mid-stars {
         width: 85vw;
     }
-    .Testimonials-right>p{
+
+    .Testimonials-right>p {
         width: 85vw;
     }
-    #footer{
+
+    #footer {
         flex-direction: column;
         align-items: center;
         height: 1400px;
     }
-    .table-wraper{
+
+    .table-wraper {
         flex-direction: column;
     }
 }
